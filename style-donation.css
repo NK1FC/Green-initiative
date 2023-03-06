@@ -1,0 +1,381 @@
+@media all{
+
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;;
+}
+
+
+form{
+    background-color: #354463;
+    padding: 2rem;
+}
+
+/* utility class*/
+
+input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 2px solid #C1F7D5;
+    color: #C1F7D5;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 7.25rem;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    /* border:2px solid #C1F7D5; */
+}
+
+select{
+    background-color: #354463;
+    color: #C1F7D5;
+    border: none;
+    width:0.7rem;
+    border-bottom: 2px solid #C1F7D5;
+}
+
+label{
+    color: white;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+}
+
+
+h3{
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    color: white;
+}
+
+
+/* Header */
+
+header{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+
+/*Main*/
+.content{
+    background-image: url('asset/mobile/donation/annie-spratt-427340-unsplash-\(1\).png');
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    font-family: 'Flood-std';
+    text-align: center;
+}
+
+.name-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+
+
+.full-width-input{
+    width: 100%;
+    margin-bottom: 1.6rem;
+}
+
+.address{
+    margin-bottom: 1.6rem;
+}
+
+.adress-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.email{
+    width: 100%;
+}
+
+.credit-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+
+.month{
+    width: 3rem;
+}
+
+.year{
+    width: 3rem;
+}
+
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:0.6rem;
+}
+
+
+
+.btn{
+    margin-top: 1.8rem;
+    padding: 0.7rem 0rem;
+    min-width: 15.5rem;
+    min-height: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+/* UI Properties */
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 6.25rem;
+    opacity: 1;
+    font-weight: bold;
+    color: #354463;
+    text-align: center;
+}
+
+.donate a{
+    color: #C1F7D5;
+}
+
+/*Footer*/
+footer{
+    background-color: #FFFFFF;
+    min-height: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4.2rem 2rem 3.25rem;
+    gap: 4.1rem;
+    column-gap: 4.8rem;
+}
+
+footer h2{
+    width: 5.9rem;
+    height: 3.9rem;
+    text-align: left;
+    font: normal normal bold 1.1rem/1.4rem Helvetica;
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+}
+
+footer h3{
+    width: 11.3rem;
+    height: 8.5rem;
+/* UI Properties */
+    text-align: right;
+    font: normal normal normal 2.75rem/2.9rem 'Flood-Std';
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+    position: relative;
+    left: 7.5rem;
+}
+
+footer h6{
+    text-align: left;
+    font: normal normal normal 0.7rem/0.8rem Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+    margin-bottom: 0.7rem;
+}
+    /* Contact us*/
+.footer-contactus h6{
+    margin-bottom: 0.7rem;
+}
+
+.footer-contactus ul{
+    list-style: none;
+}
+.footer-contactus li{
+    text-align: left;
+    margin-left: -2.57rem;
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+/* follow us */ 
+
+.footer-followus{
+    width: 5.9rem;
+}
+
+.footer-followus a{
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.footer-followus ul{
+    list-style: none;
+}
+
+.footer-followus li{
+    text-align: left;
+    margin-left: -2.6rem;
+}
+
+/* Learn More */
+
+
+.footer-learnmore a{
+
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.footer-learnmore ul{
+    list-style: none;
+}
+
+.footer-learnmore li{
+    text-align: left;
+    margin-left: -2.6rem;
+}
+
+.footer-learnmore a{
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1439px) {
+
+input{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width:15.25rem;
+}
+
+label{
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+h1{
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+h3{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+.content{   
+    padding: 4rem 4rem 5rem;
+    background-image: url('asset/tablet/donation/annie-spratt-427340-unsplash-\(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+form{
+    min-width: 40rem;
+    padding: 4rem;
+}
+
+.name-container{
+    gap:1.5rem;
+}
+
+.adress-container{
+    gap:0.2rem;
+}
+
+.donate{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
+footer h3{
+    left: initial;
+}
+}
+
+
+@media all and (min-width: 1440px){
+input{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width:14rem;
+}
+
+label{
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+h1{
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+}
+
+h3{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+
+.content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('asset/windows/donation/annie-spratt-427340-unsplash-\(1\).png');   
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 6rem;
+    padding: 5rem 10rem 8rem;
+}
+
+form{
+    min-width: 40rem;
+    padding: 4rem;
+}
+
+.name-container{
+
+    gap:1.2rem;
+}
+
+.adress-container{
+    gap:0.2rem;
+}
+
+.donate{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+/*Footer*/
+footer h3{
+    left: initial;
+}
+
+.footer-container{
+    padding:7.1rem 10rem 8.8rem;
+    justify-content: space-evenly;
+}
+
+
+}

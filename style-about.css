@@ -1,0 +1,1198 @@
+@media all{
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: Helvetica, sans-serif;
+    }
+
+    /* Utility*/
+
+    /*Header Section*/
+    .header-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+        /* UI Properties */
+        background-color: #FFFFFF;
+        justify-content: space-around;
+    }
+
+    .header-tittle{
+        margin-top: 0.5rem;
+        width: 9rem;
+        height: 2.5rem;
+    /* UI Properties */
+        text-align: left;
+        font: normal normal bold 1.1rem/1.4rem Helvetica;
+        letter-spacing: 0rem;
+        color: #354463;
+    }
+
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+        
+    }
+
+    .header-nav1{
+        text-align: left;
+        font: normal normal 300 0.9rem/1.3rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .header-nav2{
+        text-align: left;
+        font: normal normal 300 0.9rem/1.3rem Helvetica;
+        letter-spacing: 0rem;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .header-nav3{
+    /* UI Properties */
+        text-align: left;
+        font: normal normal 300 0.9rem/1.3rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;     
+    }
+
+    .header-btn{
+        margin-top: 1.8rem;
+        padding-top: 0.7rem;
+        min-width: 19.5rem;
+        min-height: 2.5rem;
+    /* UI Properties */
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 6.25rem;
+        opacity: 1;
+    }
+
+    .header-btn-text{
+        text-align: center;
+        font: normal normal bold 1.1rem/1.4rem Helvetica;
+        letter-spacing: 0rem;
+        color: #354463;
+        opacity: 1;
+    }
+
+
+/* Section-1 */
+
+.section1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8.5rem;
+/* UI Properties */
+    background-image: url('asset/mobile/about-us/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.section1-design{
+    min-width: 11.3rem;
+    min-height: 8.5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    
+/* UI Properties */
+    color: white !important;
+    font-size: 2.75rem;
+    text-align: left;
+    font-family: 'flood-std';
+    letter-spacing: 0rem;
+    opacity: 1;
+}
+.section1-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.7rem;
+    min-width: 19.5rem;
+/* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0rem 2rem 3rem 2rem;   
+}
+
+.section1-block-1{
+    width: 10rem;
+    height: 2.5rem;
+/* UI Properties */
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -1rem;
+    z-index: 1;
+}
+.section1-block-1-text{
+    text-align: center;
+    padding:0.7rem 0rem;
+    font: normal normal normal 0.9rem/1rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.section1-block-2{
+    text-align: center;
+    min-width: 17.4rem;
+    min-height: 4.9rem;
+    margin-bottom: 2rem;
+/* UI Properties */   
+    font: normal normal bold 1.4rem/1.75rem Helvetica;
+    font-size: 22px;
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+}
+/* Section 2*/
+
+.sectwo-container{
+    padding: 2rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #354463;
+    color:white;
+    gap:4rem;
+}
+
+.sectwo-block-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.sectwo-block-one h3{
+    background-color: white;
+    color: #354463;
+    padding: 0.7rem 0.2rem;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.sectwo-block-one p{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+}
+
+.sectwo-block-two{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1.75rem;
+    /* padding-left: 3rem; */
+    justify-content: space-evenly;
+}
+
+.sectwo-card{
+    width:9rem;
+    height: 9.4rem;
+}
+
+.sectwo-card img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.sectwo-card h4{
+    font-size:1rem;
+    line-height: 1.25rem;
+}
+
+.sectwo-card p{
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+}
+
+/* Section 3*/
+
+.secthree-container{
+    padding: 2.4rem 2rem 2rem;
+}
+
+.secthree-block-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.7rem;
+    margin-bottom: 1rem;
+}
+
+.secthree-block-one>p{
+    background-color: #354463;
+    min-width: 10rem;
+    text-align: center;
+    padding: 0.7rem 0rem;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-weight: normal;
+}
+
+.secthree-block-one-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.9rem;
+}
+
+.secthree-block-one-one h3{
+    text-align: center;
+    font-size:1.4rem;
+    line-height: 1.75rem;
+    color: #354463;
+}
+
+.secthree-block-one-one p{
+    text-align: center;
+    min-width: 18.9rem;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    font-weight: 300;
+    color: #354463;
+}
+
+.secthree-block-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+.image-container{
+    width:9rem;
+    height: 13rem;
+}
+
+.secthree-block-two img{   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;    
+}
+
+.image-one{
+    background-image: url('asset/mobile/about-us/Screen-Shot-2018-10-04-at-9.35.07-PM.png');
+}
+
+.image-two{
+    background-image: url('asset/mobile/about-us/5.png');
+}
+
+.image-three{
+    background-image: url('asset/mobile/about-us/6.png');
+}
+
+.image-four{
+    background-image: url('asset/mobile/about-us/7.png');
+}
+
+.image-five{
+    background-image: url('asset/mobile/about-us/8.png');
+}
+
+.image-six{
+    background-image: url('asset/mobile/about-us/5.png');
+}
+
+.secthree-block-two p{
+    background-color: #354463;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    padding: 0.9rem 1rem 0.5rem;
+    font-weight: 300;
+    margin-top: -0.3rem;
+}
+
+/*Section 4*/
+
+.secfour-container{
+    padding: 1rem 1.4rem 3.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    color: white;
+    background-image: url('asset/mobile/about-us/2.png');
+    background-color: #354463;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secfour-container> p{
+    background-color: white;
+    color: #354463;
+    width: 10rem;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+.secfour-container h3{
+    text-align: center;
+    min-width: 20.6rem;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+}
+
+.secfour-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+
+.secfour-holder{
+    width: 19.5rem;
+    min-height: 5.1rem;
+}
+
+.secfour-holder p{
+    font-family: 'Flood-std';
+    font-size: 2.75rem;
+    line-height: 2.9rem;
+    text-align: center;
+}
+
+.secfour-holder h6{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+
+/* Section 5 */
+
+.secfive-container{
+    padding: 4rem 2rem;
+    background-color: #354463;
+}
+
+.secfive-container>p{
+    font-family: 'Flood-std';
+    color: white;
+    font-size:2.75rem;
+    line-height: 2.9rem;
+    text-align: center;
+    margin-bottom: 3.4rem;
+}
+
+.secfive-scroller{
+    display: flex;
+    gap:2rem;
+    overflow-x: auto;
+}
+
+.scroll-head{
+    padding: 0.7rem 0rem;
+    background-color: white;
+    color: #354463;
+    width: 10rem;
+    text-align: center;
+    position: relative;
+}
+
+.secfive-scroll-block{
+    width:19.4rem;
+    height: 34.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secfive-scroll-block img{
+    background-image: url('asset/mobile/about-us/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14rem;
+    width: 19.4rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2.25rem;   
+}
+
+.secfive-scroll-block h3{
+    color:white;
+    width: 16rem;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+.scroll-p{
+    color:white;
+    width: 15.5rem;
+    height: 7.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.secfive-btn{
+    width: 9.5rem;
+    height: 2.5rem;
+/* UI Properties */
+    background: #C1F7D5;
+    border-radius: 6.25rem;
+    font: normal normal bold 1rem/1.25rem Helvetica;
+    letter-spacing: 0rem;
+    color: #354463;
+    border: none;
+    margin-bottom: 2.6rem;
+}
+
+
+    /*Section 6*/
+.secsix-container{
+    padding: 2.25rem 1.4rem 0rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.9rem;
+    background-color: #C1F7D5;
+    justify-content: space-around;
+}
+
+.secsix-container p{
+    min-width: 20.1rem;
+    min-height: 4.9rem;
+/* UI Properties */
+    text-align: left;
+    font: normal normal bold 1.4rem/1.75rem Helvetica;
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+}
+
+.secsix-container input{
+    min-width: 12rem;
+    height: 2.5rem;
+/* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6.25rem;
+    opacity: 1;
+    border: none;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    padding: 0.9rem 1.4rem 0.75rem 1rem;
+    flex-grow: 2;
+}
+
+
+.secsix-img-btn{
+    width: 7rem;
+    height: 2.5rem;
+/* UI Properties */
+    background: #354463;
+    border-radius: 6.25rem;
+    font: normal normal bold 1rem/1.25rem Helvetica;
+    letter-spacing: 0rem;
+    color: #C1F7D5;
+    border: none;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+/* Footer */
+
+
+
+footer{
+    background-color: #FFFFFF;
+    min-height: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4.2rem 2rem 3.25rem;
+    gap: 4.1rem;
+    column-gap: 4.8rem;
+}
+
+footer h2{
+    width: 5.9rem;
+    height: 3.9rem;
+    text-align: left;
+    font: normal normal bold 1.1rem/1.4rem Helvetica;
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+}
+
+footer h3{
+    width: 11.3rem;
+    height: 8.5rem;
+/* UI Properties */
+    text-align: right;
+    font: normal normal normal 2.75rem/2.9rem 'Flood-Std';
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+    position: relative;
+    left: 7.5rem;
+}
+
+footer h6{
+    text-align: left;
+    font: normal normal normal 0.7rem/0.8rem Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+    margin-bottom: 0.7rem;
+}
+    /* Contact us*/
+.footer-contactus h6{
+    margin-bottom: 0.7rem;
+}
+
+.footer-contactus ul{
+    list-style: none;
+}
+.footer-contactus li{
+    text-align: left;
+    margin-left: -2.57rem;
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+/* follow us */ 
+
+.footer-followus{
+    width: 5.9rem;
+}
+
+.footer-followus a{
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.footer-followus ul{
+    list-style: none;
+}
+
+.footer-followus li{
+    text-align: left;
+    margin-left: -2.6rem;
+}
+
+/* Learn More */
+
+
+.footer-learnmore a{
+
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.footer-learnmore ul{
+    list-style: none;
+}
+
+.footer-learnmore li{
+    text-align: left;
+    margin-left: -2.6rem;
+}
+
+.footer-learnmore a{
+    font: normal normal 300 0.9rem/1.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+
+}  
+
+
+
+@media all and (min-width: 768px) and (max-width: 1439px) {
+        /*Header Section*/
+.header-container{
+    min-width: 48rem;
+    height: 10rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap:0.3rem;
+}
+.header-tittle{
+    width: 10rem;
+    height: 3.9rem;
+/* UI Properties */
+    text-align: left;
+    font: normal normal bold 1.4rem/1.75rem Helvetica;
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+}    
+.header-nav{
+    flex-direction: row;
+    margin-left: -2.2rem;
+    font: normal normal 300 1rem/1.5rem Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+.header-btn{
+    min-width: initial;
+    width: 8.75rem;
+    height: 3rem;
+}
+.header-btn-text{
+    font: normal normal bold 1.1rem/1.4rem Helvetica;
+    letter-spacing: 0rem;
+    color: #354463;
+    opacity: 1;
+}
+
+    /*Section 1*/
+
+.section1-container{
+    gap:5rem;
+    padding-bottom: 4rem;
+    background-image: url('asset/tablet/about-us/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1-block{
+    justify-content: start;
+    align-items: start;
+    padding-left: 4rem;
+    margin-bottom: 0rem;
+}
+
+.section1-block-2-text{
+    text-align: left;
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+}
+
+/* Section 2*/
+
+.sectwo-container{
+    padding: 4rem;
+}
+
+.sectwo-block-one{
+    align-items: flex-start;
+}
+
+.sectwo-block-one p{
+    text-align: left;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+.sectwo-block-two{
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+
+.sectwo-card{
+    width: 12rem;
+    height: 9.9rem;
+}
+
+.sectwo-card h4 {
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+}
+
+/* Section 3*/
+.secthree-container{
+    padding: 4rem;
+}
+
+.secthree-block-one{
+    align-items: start;  
+    margin-bottom: 4rem; 
+}
+
+.secthree-block-one-one{
+    flex-direction: row;
+    justify-content: start;
+}
+
+.secthree-block-one-one h3{
+    text-align: left;
+    min-width: 24rem;
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+
+.secthree-block-one-one p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.secthree-block-two{
+    gap:1.5rem;
+}
+.image-container{
+    width: 19rem;
+    height: 18.5rem;
+}
+
+.image-container img{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:17rem;
+    height: 17rem;
+    border:none;    
+}
+
+
+.image-one{
+    background-image: url('asset/tablet/about-us/5.png');
+}
+
+.image-two{
+    background-image: url('asset/tablet/about-us/2.png');
+}
+
+.image-three{
+    background-image: url('asset/tablet/about-us/6.png');
+}
+
+.image-four{
+    background-image: url('asset/tablet/about-us/7.png');
+}
+
+.image-five{
+    background-image: url('asset/tablet/about-us/8.png');
+}
+
+.image-six{
+    background-image: url('asset/tablet/about-us/9.png');
+}
+
+
+.image-container p{
+    padding: 1rem 3.2rem 1rem 1rem;
+    width: 17rem;
+    margin-left: 1rem;
+    margin-top: -1.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+/*Section 4*/
+.secfour-container{
+    padding: 4rem 3.4rem;
+    column-gap: 4rem;
+    row-gap: 3.6rem;
+    background-image: url('asset/tablet/about-us/3.png');
+    background-color: #354463;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secfour-container h3{
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+    min-width: 41.1rem;
+    margin-bottom: 4.25rem;
+}
+
+.secfour-holder{
+    width: 18rem;
+    height: 9rem;
+}
+
+.secfour-holder p{
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+}
+
+/*Section 5*/
+.secfive-container{
+    padding: 4rem;
+}
+
+.secfive-container>p{
+    text-align: left;
+}
+
+.secfive-scroll-block img{
+    background-image: url('asset/tablet/about-us/4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secfive-scroll-block{
+    align-items: flex-start;
+}
+
+.scroll-head{
+    margin-left: 2rem;
+}
+
+.secfive-scroll-block h3{
+    text-align: left;
+}
+
+.scroll-p{
+    text-align: left;
+}
+
+/*Section 6*/
+.secsix-container{
+    justify-content: space-around;
+}
+
+.secsix-container input{
+    min-width: 28rem;
+}
+
+.secsix-img-btn{
+    margin-left: 2rem;
+}
+
+/*Footer*/
+/* Footer */
+
+footer h3{
+    left: initial;
+}
+
+
+}
+
+
+@media all and (min-width: 1440px){
+
+/*Header*/
+
+header{
+    padding: 2rem 10rem;
+}
+
+.header-nav{
+    margin-top: 1.25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 37.5rem;
+    margin-left: 2.25rem;
+    font: normal normal 300 1rem/1.5rem Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+
+.header-btn{
+    min-width: initial;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 0.4rem;
+}
+
+/* Section 1 */
+
+.section1-container{
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    height: 29rem;
+    padding-top: 6rem;
+    background-image: url('asset/windows/about-us/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1-block{
+    width: 34rem;
+    height: 21rem;
+    justify-content: start;
+    align-items: start;
+    padding-left: 4rem;
+    margin-bottom: 0;
+    align-self: flex-end;
+    z-index: 1;
+}
+
+.section1-block-2{
+    margin-right: 4rem;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+.section1-block-2-text{
+    text-align: left;
+}
+
+.section1-design{
+    padding-top: 0rem;
+}
+
+/* Section 2 */
+
+.sectwo-container{
+    padding: 10rem 8rem;
+    gap:8rem;
+    margin-top: -4rem;
+}
+
+.sectwo-block-one{
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sectwo-block-one p{
+    text-align: left;
+    font-size: 2.75em;
+    line-height: 3.5rem;
+}
+
+.sectwo-block-two{
+    column-gap: 1rem;
+    row-gap: 3.75rem;
+}
+
+
+.sectwo-card{
+    width: 15.2rem;
+    height: 11.25rem;
+}
+
+.sectwo-card img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.sectwo-card h4 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+/*Section 3*/
+
+.secthree-container{
+    padding:8rem 10rem 6.6rem;
+}
+
+.secthree-block-one{
+    align-items: start;  
+    margin-bottom: 5.7rem; 
+}
+
+.secthree-block-one-one{
+    flex-direction: row;
+    justify-content: start;
+}
+
+.secthree-block-one-one h3{
+    text-align: left;
+    min-width: 30rem;
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+}
+
+.secthree-block-one-one p{
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    text-align: left;
+}
+
+.secthree-block-two{
+    row-gap: 4.5rem;
+    column-gap: 1rem;
+}
+
+.image-container{
+    width: 22rem;
+    height: 21.5rem;
+}
+
+.image-container img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:20rem;
+    height: 20rem;    
+}
+
+.image-one{
+    background-image: url('asset/windows/about-us/5.png');
+}
+
+.image-two{
+    background-image: url('asset/windows/about-us/6.png');
+}
+
+.image-three{
+    background-image: url('asset/windows/about-us/2.png');
+}
+
+.image-four{
+    background-image: url('asset/windows/about-us/7.png');
+}
+
+.image-five{
+    background-image: url('asset/windows/about-us/8.png');
+}
+
+.image-six{
+    background-image: url('asset/windows/about-us/9.png');
+}
+
+.image-container p{
+    padding: 1.1rem 4.75rem 0.9rem 1rem;
+    width: 20rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    margin-top: -1.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*Section 4*/
+
+.secfour-container{
+    padding: 8rem 0rem;
+    gap:2.6rem;
+    background-image: url('asset/windows/about-us/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secfour-container h3{
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    width: 46.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.secfour-holder{
+    width: 16rem;
+    height: 9rem;
+}
+
+.secfour-block p{
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+}
+
+
+/* Section 5*/
+
+.secfour-container{
+    padding: 4rem 3.4rem;
+    column-gap: 4rem;
+    row-gap: 3.6rem;
+}
+
+.secfour-container h3{
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+    min-width: 41.1rem;
+    margin-bottom: 4.25rem;
+}
+
+.secfour-holder{
+    width: 18rem;
+    height: 9rem;
+}
+
+.secfour-holder p{
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+}
+
+/*Section 5*/
+.secfive-container{
+    padding: 4rem;
+}
+
+.secfive-container>p{
+    text-align: left;
+}
+
+.secfive-scroll-block{
+    width: 34rem;
+    height: 49rem;
+    align-items: flex-start;
+}
+
+.secfive-scroll-block img{
+    width: 34rem;
+    height: 24.6rem;
+    background-image: url('asset/windows/about-us/4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scroll-head{
+    margin-left: 2rem;
+}
+
+.secfive-scroll-block h3{
+    width: initial;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    text-align: left;
+}
+
+.scroll-p{
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    text-align: left;
+    width: 26rem;
+    height: 5.9rem;
+}
+
+
+/*Section 6*/
+.secsix-container{
+    justify-content: space-around;
+}
+
+.secsix-container input{
+    width: 22rem;
+}
+
+.secsix-img-btn{
+    margin-left: 2rem;
+}
+
+
+/*  Footer */
+
+
+
+footer h3{
+    left: initial;
+}
+
+footer{ 
+    padding:7.1rem 10rem 8.8rem;
+    justify-content: space-evenly;
+}
+
+}
